@@ -6,7 +6,7 @@ import java.util.List;
 /**
  * <p/>Memory simulation</p>
  * Example:
- * java -jar ./SimulationMemory.jar "64 1 32 1 16 1000 20 false false First Biggest Suitable"
+ * java -jar ./SimulationMemory.jar 64 1 32 1 16 1000 20 false false First Biggest Suitable
  * @author Pavel Muhortov
  */
 public class Simulation {
