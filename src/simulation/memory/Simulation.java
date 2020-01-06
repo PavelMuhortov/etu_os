@@ -6,13 +6,15 @@ import java.util.List;
 /**
  * <p/>Memory simulation</p>
  * Example:
- * java -jar ./SimulationMemory.jar "64 1 32 1 16 1000 20 false false First Biggest Suitable"
+ * java -jar ./SimulationMemory.jar 64 1 32 1 16 1000 20 true false First Biggest Suitable
+ * need to refine the transfer of parameters to the .jar
  * @author Pavel Muhortov
  */
 public class Simulation {
 
 	public static void main(String[] args) {
-		String[] input = args;
+		//String[] input = args;
+		String[] input = {"64","1","32","1","16","16","1","true","false","First","Biggest","Suitable"};
 		
 		Config cfg = new Config(input);
 		int memSize = cfg.getMemSize();
