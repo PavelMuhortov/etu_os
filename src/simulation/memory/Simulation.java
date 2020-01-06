@@ -6,7 +6,11 @@ import java.util.List;
 /**
  * <p/>Memory simulation</p>
  * Example:
+<<<<<<< HEAD
  * java -jar ./SimulationMemory.jar 64 1 32 1 16 1000 20 true false First Biggest Suitable
+=======
+ * java -jar ./SimulationMemory.jar 64 1 32 1 16 1000 20 false false First Biggest Suitable
+>>>>>>> 3ddbd347e35f76e2fa469abee1ef02ff89c175cf
  * need to refine the transfer of parameters to the .jar
  * @author Pavel Muhortov
  */
